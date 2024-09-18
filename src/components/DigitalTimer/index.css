@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+.clock-components-container {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.imgcont {
+  height: 400px;
+  width: 400px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.round-cont {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: white;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.working-comp-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 80px;
+}
+.pause-reset-cont {
+  display: flex;
+  justify-content: center;
+}
+.play-img,
+.reset-img {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+}
+button {
+  background-color: transparent;
+  border: 0;
+}
+.bun {
+  display: flex;
+}
+
+span {
+  background-color: #44deb7;
+  color: black;
+  border: 0;
+  border-radius: 5px;
+  padding: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
